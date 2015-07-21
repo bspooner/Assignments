@@ -7,4 +7,4 @@
 3. For task 2.3 I did not get the tweepy api working early enough in the week to have a meaningful pre_post but I manipulated the amounts using .limit to show my method for comparing the two collections works. the 2_3_asnwer.txt file shows the results of my comparison algorithm
 
 ## S3 Bucket ##
-1. https://console.aws.amazon.com/s3/home?region=us-west-2#&bucket=berkeley-w205-spooner-emr-output&prefix=assign3/backup/
+1. http://berkeley-w205-spooner-emr-output.s3.amazonaws.com/
