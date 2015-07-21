@@ -18,10 +18,10 @@ from nltk.corpus import stopwords
 os.system(u'aws s3 sync s3://berkeley-w205-spooner-emr-output/assign2 s3')
 
 import tweepy
-consumer_key = "aIm94IFtW1Q7AssW8zFdvtOn2";
-consumer_secret = "PYh7dVt9Kec69bHKvT8vaSEOyUY6EYYvSaAJhXBGIqc0s70HQ8";
-access_token = "3219874850-Zex9ksNc4yKnK5NYFvH6NsOuXVTHWoha40AbL8F";
-access_token_secret = "MHAujfOvfjYmosILChlqb4uYUrMCjPkruOvhl6pQf6L0b";
+consumer_key = "key"
+consumer_secret = "key"
+access_token = "key"
+access_token_secret = "key"
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth_handler=auth,wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
